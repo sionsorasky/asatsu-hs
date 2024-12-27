@@ -45,3 +45,48 @@
   font-weight: 900;
   font-style: normal;
 }
+
+section {
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.hello {
+    background-image: url(./../images/hello.png);
+    text-align: center;
+    padding-top: 10vh;
+}
+
+.second {
+    background-image: url(./../images/info.png);
+    text-align: center;
+    padding-top: 10vh;
+}
+
+.title {
+    font-family: 'Zen Kurenaido', serif;
+    font-size: 7rem;
+    color: white;
+    line-height: 0.5;
+}
+
+.white {
+    color: white;
+}
+
+.h2 {
+    font-size: 3rem;
+}
+
+/* MOBILE==========================================================================MOBILE*/
+@media (max-width: 700px) {
+    .title {
+        font-size: 4rem;
+    }
+
+    .h2 {
+        font-size: 1.5rem;
+    }
+}
