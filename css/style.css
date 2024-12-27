@@ -83,7 +83,7 @@ section {
 /* MOBILE==========================================================================MOBILE*/
 @media (max-width: 700px) {
     .title {
-        font-size: 4rem;
+        font-size: 3rem;
     }
 
     .h2 {
